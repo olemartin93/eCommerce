@@ -1,0 +1,53 @@
+* {
+  border-radius: 0 !important;
+}
+
+.jumbotron {
+  background: url(cover.png);
+  height:200px;
+  position: absolute;
+  width: 87%;
+  right: 0;
+  height: 500px;
+}
+
+.navbar {
+  background-color: #000000;
+  border-bottom:1px solid #ff6a00;
+  height: 75px;
+}
+
+.navbar a {
+  color: white;
+}
+
+#sidebar-wrapper {
+  text-align: center;
+  width: 13%;
+  background: #000;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+
+
+
+.sidebar-nav {
+  width: 150px;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.sidebar-nav li {
+  line-height: 40px;
+  text-indent: 20px;
+}
+
+.sidebar-nav li a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block; 
+}
+
